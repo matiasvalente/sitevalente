@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Morada</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="imagens/icone.png">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="https://kit.fontawesome.com/c26fa50f8b.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        
+        <nav id="sidebar" class="active">
+            <div class="sidebar-header">
+                <h3>Menu</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+            
+                <li>
+                    <a href="index.html">Página Inicial</a>   
+                </li>
+
+                <li class="active">
+                    <a href="Morada.html">Morada/Contactos</a>
+                </li>
+                <li>
+                    <a href="Serviços.html">Serviços</a>
+                </li>
+                <li>
+                    <a href="Opiniões.html">Críticas/Opiniões</a>
+                    
+                </li>
+            </ul>
+            
+        </nav>
+        
+        <!-- Menu Interativo -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light nav1">
+                
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            
+                        </ul>
+                        
+                    <a href="P%C3%A1gina%20Inicial.html"><img src="logotipo.png" width="150px" height="45px" class="logo"></a>
+                </div>
+            </nav>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+
+    <div id="contactos">
+    <div id="mapaemorada">
+    <div id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.2915588575593!2d-8.486013984357493!3d40.799586440189216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23775a9237dfd7%3A0xb6a6081cf0fa2be!2sTransportes%20Jos%C3%A9%20Valente%2C%20Unipessoal%20Lda.!5e0!3m2!1spt-PT!2spt!4v1673952262146!5m2!1spt-PT!2spt" width="100%" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div id="morada">
+            <center>
+                <p>R. da Ucha 167, 3720-474 Oliveira de Azeméis, Aveiro</p>
+                <p>Tel: 962680522 | Gmail: valente.tt@gmail.com</p>
+            </center>
+        </div>
+        </div>
+              </div>
+
+</body>
+
+
+</html>
